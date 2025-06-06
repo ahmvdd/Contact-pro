@@ -1,0 +1,15 @@
+{
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "scripts": {
+    "build": "pnpm run build"
+  },
+  "installCommand": "pnpm install --unsafe-perm",
+  "pnpm": {
+    "ignoredDependencies": []
+  }
+}
+    
